@@ -1,7 +1,5 @@
 # Git-Commands
-Commandes pricincipales de git
-
-# GitInstructions
+   Commandes pricincipales de git
 
 + `git init` Crée un dépôt Git vide ou réinitialise un dépôt existant.
 
