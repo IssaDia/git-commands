@@ -11,8 +11,7 @@
  + `git status` Affiche la liste des fichiers modifiés
 
  + `git log` Donne la liste de tous les commits effectués (du plus récent au plus vieux commit identifié chacun par un code SHA). 
-     + tip = git commit -a -m "NomCommit".
-
+     
  + `git checkout + SHADuCommit` Se positionner sur un commit précis.
      + tip = git checkout master ==> Revenir au commit le plus récent.
 
