@@ -41,7 +41,7 @@
  + `git checkout + NomBranche` Accéder à une branche
      + tip= git checkout -b + NomBranche ==> Créer une nouvelle branche puis s'y positionner directement.
      
- +  `git checkout --orphan + NomBranche` => Donner à une branche un historique de commit vierge
+ +  `git checkout --orphan + NomBranche` Donner à une branche un historique de commit vierge
 
  + `git merge + NomBranche` Ajouter les modifications de la branche du nom désigné dans la commande.
 
