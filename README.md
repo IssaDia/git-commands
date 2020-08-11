@@ -18,6 +18,8 @@
  + `git revert  + SHADuCommit` Crée un nouveau commit qui fait l'inverse du précédent.
 
  + `git commit --amend -m "NouveauNomCommit"` Permet de changer le nom du commit précédent (inutile si push déja effectué).
+ 
+ +  `git commit -a` : ouvre un fichier éditable (avec Nano par exemple) , la premiere ligne étant le titre du commit et la suite le body.
 
  + `git reset --hard` Permet d'annuler tous les changements fait aprés le dernier commit (à effectuer avant un nouveau commit).
 
@@ -33,11 +35,13 @@
 
  + `git branch -d NomBranche` Supprimer une branche en locale
 
- + `git push origin --delete NomBranche` Supprimer une branche d'un remote 
+ + `git push origin --delete + NomBranche` Supprimer une branche d'un remote 
 
 
  + `git checkout + NomBranche` Accéder à une branche
      + tip= git checkout -b + NomBranche ==> Créer une nouvelle branche puis s'y positionner directement.
+     
+ +  `git checkout --orphan + NomBranche` => Donner à une branche un historique de commit vierge
 
  + `git merge + NomBranche` Ajouter les modifications de la branche du nom désigné dans la commande.
 
