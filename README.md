@@ -4,7 +4,7 @@
 + `git init` Crée un dépôt Git vide ou réinitialise un dépôt existant.
 
  + `git add + NomFichier` Ajoute un ou plusieurs fichiers dans le repository crée.
-     + tip = git add . ==> Ajoute tous les fichiers d'un dossiers dans le repository.
+     + tip = git add . ==> Ajoute tous les fichiers d'un dossier dans le repository.
      
  + `git add -A` Ajoute tous les fichiers non suivis ou modifiés
 
