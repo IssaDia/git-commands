@@ -49,7 +49,7 @@
 
  + `git blame + NomFichier` liste les modifications ligne par ligne d'un fichier
 
- + `git show + + SHADuCommit` Affiche détails d'un commit à partir de son code SHA
+ + `git show + SHADuCommit` Affiche détails d'un commit à partir de son code SHA
 
  + `git stash` Mettre de côté les modifications en cours sans avoir à faire un commit
 
